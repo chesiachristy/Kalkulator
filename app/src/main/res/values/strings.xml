@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">kelompok_5</string>
+    <string name="sin" />
+    <string name="cos" />
+    <string name="tan" />
+    <string name="bin" />
+    <string name="dec" />
+    <string name="hex" />
+    <string name="oct" />
+    <string name="square_root_symbol" />
+    <string name="plus" />
+    <string name="exit" />
+    <string name="c" />
+</resources>

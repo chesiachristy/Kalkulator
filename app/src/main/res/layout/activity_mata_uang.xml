@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    tools:context=".Mata_Uang">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Konversi Mata Uang"
+        android:textColor="#0B0A0A"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="253dp"
+            android:layout_height="247dp"
+            android:layout_gravity="center"
+            android:src="@drawable/uangg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/uang_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:hint="0 Rupiah"
+                android:textColor="#433232"
+                android:textColorHint="#473737"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="="
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hasil_konversi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Hasil Konversi"
+                android:textColor="#0E0E0E"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/rwon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#87CEEB"
+            android:onClick="toWon"
+            android:text="Rp > Won"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/rpusd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#87CEEB"
+            android:onClick="toUSD"
+            android:text="Rp > USD"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/rpyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#87CEEB"
+            android:onClick="toYEN"
+            android:text="Rp > YEN"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/rpeuro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#87CEEB"
+            android:onClick="toEuro"
+            android:text="Rp > Euro"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
