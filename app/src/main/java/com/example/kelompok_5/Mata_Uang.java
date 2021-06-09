@@ -39,21 +39,21 @@ public class Mata_Uang extends AppCompatActivity {
         return false;
     }
 
-    public void toYEN(View v){
-        if (cek()){
-            return;
-        }
+        public void toYEN(View v){
+            if (cek()){
+                return;
+            }
 
-        try{
-            angka = Double.parseDouble(input_uang.getText().toString());
-        }catch(Exception ex){
-            Toast.makeText(this, "Masukkan angka", Toast.LENGTH_SHORT).show();
-        }
+            try{
+                angka = Double.parseDouble(input_uang.getText().toString());
+            }catch(Exception ex){
+                Toast.makeText(this, "Masukkan angka", Toast.LENGTH_SHORT).show();
+            }
 
-        double hasil = angka / 130.42;
-        hasil_konversi.setText(NumberFormat.getCurrencyInstance(Locale.JAPAN).format(hasil));
-        Toast.makeText(this, "1 Yen = Rp 130.42", Toast.LENGTH_SHORT).show();
-    }
+            double hasil = angka / 130.42;
+            hasil_konversi.setText(NumberFormat.getCurrencyInstance(Locale.JAPAN).format(hasil));
+            Toast.makeText(this, "1 Yen = Rp 130.42", Toast.LENGTH_SHORT).show();
+        }
 
     public void toEuro(View v){
         if (cek()){

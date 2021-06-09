@@ -14,11 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void Kalkulator(View view) {
-        Intent intent = new Intent(MainActivity.this, Kalkulator.class);
-        startActivity(intent);
-    }
-
     public void Kalkulator_BMI(View view) {
         Intent intent = new Intent(MainActivity.this, BMI.class);
         startActivity(intent);

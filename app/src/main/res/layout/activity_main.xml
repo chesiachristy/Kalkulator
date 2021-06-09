@@ -40,21 +40,6 @@
         app:layout_constraintVertical_bias="0.486" />
 
     <Button
-        android:id="@+id/btn_kalkulator"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="Kalkulator"
-        android:orientation="vertical"
-        android:text="Kalkulator"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
-
-    <Button
         android:id="@+id/btn_konvermatauang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,10 +49,10 @@
         android:text="Konversi Mata Uang"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.699" />
+        app:layout_constraintVertical_bias="0.612" />
 
     <Button
         android:id="@+id/btn_BMI"
@@ -82,6 +67,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.724" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
